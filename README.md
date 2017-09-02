@@ -5,7 +5,7 @@ npm init -y
 '''
 #安装依赖模块
 '''
-npm install body-parser cookie-parser debug ejs express morgan serve-favicon express-session connect-mongo mongoose connect-flash multer async --save
+npm install body-parser cookie-parser debug ejs express morgan serve-favicon express-session connect-mongo mongoose connect-flash multer async bootstrap --save
 '''
 # 初始化git
 '''
@@ -23,5 +23,6 @@ app.listen(8080);
 
 '''
 #跑通路由
+#引入模板引擎
 
 

@@ -1,0 +1,40 @@
+<%- include ../include/header.html%>
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+        <form form="post" role="form" class="form-horizontal">
+            <div class="form-group">
+                <label for="username" class="control-label col-sm-2">用户名</label>
+                <div class="col-sm-10 input-group">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </span>
+                    <input type="text" required class="form-control" id="username">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="control-label col-sm-2">密码</label>
+                <div class="col-sm-10 input-group">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-lock"></span>
+                    </span>
+                    <input type="password" required class="form-control" id="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="control-label col-sm-2">邮箱</label>
+                <div class="col-sm-10 input-group">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                    </span>
+                    <input type="email" required class="form-control" id="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <button class="btn btn-primary" type="submit">提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<%- include ../include/footer.html%>
